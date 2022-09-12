@@ -1,0 +1,16 @@
+id = d0c78b18-6ca5-4b3d-a161-eaf6f87d98c4
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"book.proto","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = proto:3
+rootFiles[] = book.proto
